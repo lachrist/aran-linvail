@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "lib": ["es2022"],
+    "target": "es2022",
+    "resolveJsonModule": false,
+    "module": "ESNext",
+    "typeRoots": ["./node_modules/@types"],
+    "exactOptionalPropertyTypes": true
+  },
+  "include": ["./lib/"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "aran-linvail",
+  "version": "0.0.0",
+  "dependencies": {
+    "@types/estree": "^1.0.6",
+    "@types/node": "^22.13.4",
+    "@types/source-map": "^0.5.2",
+    "acorn": "^8.14.0",
+    "aran": "^5.0.0",
+    "astring": "^1.9.0",
+    "linvail": "^7.0.0",
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3"
+  },
+  "type": "module",
+  "scripts": {
+    "exec": "node lib/demo.mjs"
+  }
+}
