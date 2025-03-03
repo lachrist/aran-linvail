@@ -9,7 +9,7 @@
     "lib": ["es2022"],
     "target": "es2022",
     "resolveJsonModule": false,
-    "module": "ESNext",
+    "module": "Preserve",
     "typeRoots": ["./node_modules/@types"],
     "exactOptionalPropertyTypes": true
   },
