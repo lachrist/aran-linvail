@@ -1,0 +1,10 @@
+{
+  type: 'host',
+  kind: 'array',
+  inner: [],
+  plain: [
+    { type: 'primitive', inner: 123, index: 5 },
+    { type: 'primitive', inner: 456, index: 2 },
+    { type: 'primitive', inner: 789, index: 7 }
+  ]
+}

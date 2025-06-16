@@ -6,14 +6,18 @@
     "@types/node": "^22.13.4",
     "@types/source-map": "^0.5.2",
     "acorn": "^8.14.0",
-    "aran": "^5.0.0",
+    "aran": "^5.2.2",
     "astring": "^1.9.0",
-    "linvail": "^7.10.1",
+    "linvail": "file:../linvail",
     "prettier": "^3.5.1",
     "typescript": "^5.7.3"
   },
   "type": "module",
   "scripts": {
-    "exec": "node lib/demo.mjs"
+    "exec": "npm run manual && npm run provenance && npm run intensional && npm run extensional",
+    "manual": "node lib/manual/main.mjs > out/manual.txt && cat out/manual.txt",
+    "provenance": "npx linvail lib/provenance/main.mjs > out/provenance.txt && cat out/provenance.txt",
+    "intensional": "node lib/intensional/main.mjs > out/intensional.txt && cat out/intensional.txt",
+    "extensional": "node lib/extensional/main.mjs > out/extensional.txt && cat out/extensional.txt"
   }
 }

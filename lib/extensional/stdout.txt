@@ -1,0 +1,4 @@
+NaN#0 := performBinaryOperation(/, 0, 0) @target.mjs#$.body.1.declarations.0.init
+NaN#1 := sqrt(-1) @target.mjs#$.body.2.declarations.0.init
+Logging NaN#0
+NaN

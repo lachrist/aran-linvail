@@ -1,0 +1,69 @@
+{
+  callee: {
+    type: 'guest',
+    inner: [Function: performBinaryOperation],
+    name: 'aran.performBinaryOperation'
+  },
+  that: { type: 'primitive', inner: undefined, index: 2 },
+  input: [
+    { type: 'primitive', inner: '/', index: 3 },
+    { type: 'primitive', inner: 0, index: 4 },
+    { type: 'primitive', inner: 0, index: 5 }
+  ],
+  result: { type: 'primitive', inner: NaN, index: 6 },
+  location: 'target.mjs#$.body.1.declarations.0.init'
+}
+{
+  callee: {
+    type: 'guest',
+    inner: [Function: readGlobalVariable],
+    name: 'aran.readGlobalVariable'
+  },
+  that: { type: 'primitive', inner: undefined, index: 7 },
+  input: [ { type: 'primitive', inner: 'Math', index: 8 } ],
+  result: { type: 'guest', inner: Object [Math] {}, name: null },
+  location: 'target.mjs#$.body.2.declarations.0.init.callee.object'
+}
+{
+  callee: {
+    type: 'guest',
+    inner: [Function: getValueProperty],
+    name: 'aran.getValueProperty'
+  },
+  that: { type: 'primitive', inner: undefined, index: 9 },
+  input: [
+    { type: 'guest', inner: Object [Math] {}, name: null },
+    { type: 'primitive', inner: 'sqrt', index: 10 }
+  ],
+  result: { type: 'guest', inner: [Function: sqrt], name: null },
+  location: 'target.mjs#$.body.2.declarations.0.init.callee'
+}
+{
+  callee: {
+    type: 'guest',
+    inner: [Function: performUnaryOperation],
+    name: 'aran.performUnaryOperation'
+  },
+  that: { type: 'primitive', inner: undefined, index: 11 },
+  input: [
+    { type: 'primitive', inner: '-', index: 12 },
+    { type: 'primitive', inner: 1, index: 13 }
+  ],
+  result: { type: 'primitive', inner: -1, index: 14 },
+  location: 'target.mjs#$.body.2.declarations.0.init.arguments.0'
+}
+{
+  callee: { type: 'guest', inner: [Function: sqrt], name: null },
+  that: { type: 'guest', inner: Object [Math] {}, name: null },
+  input: [ { type: 'primitive', inner: -1, index: 14 } ],
+  result: { type: 'primitive', inner: NaN, index: 15 },
+  location: 'target.mjs#$.body.2.declarations.0.init'
+}
+NaN
+{
+  callee: { type: 'guest', inner: [Function: log], name: null },
+  that: { type: 'primitive', inner: undefined, index: 16 },
+  input: [ { type: 'primitive', inner: NaN, index: 6 } ],
+  result: { type: 'primitive', inner: undefined, index: 17 },
+  location: 'target.mjs#$.body.3.expression'
+}
